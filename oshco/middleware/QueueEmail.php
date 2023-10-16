@@ -1,3 +1,4 @@
+<?php
 namespace oshco\middleware;
 
 use webfiori\email\Email;
