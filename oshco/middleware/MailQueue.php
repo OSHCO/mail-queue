@@ -11,7 +11,7 @@ use webfiori\http\Response;
  * A middleware which is used to queue email messages for processing after a
  * response is sent.
  *
- * @author i.binalshikh
+ * @author Ibrahim
  */
 class MailQueue extends AbstractMiddleware {
     private $messagesQueue;
