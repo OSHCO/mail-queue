@@ -32,3 +32,6 @@ $mail1 = new Email($sendAccount);
 $mail1->addTo('someoneh@example.com');
 MailQueue::enqueue(mail1)
 ```
+
+## License
+The library is licensed under MIT license.
