@@ -3,7 +3,7 @@
     "description": "Simple middleware to queue email messages in WebFiori applications.",
     "authors": [
         {
-            "name": "Ibrahim BinAlshikh",
+            "name": "Ibrahim BinAlshikh"
         }
     ],
     "require": {
