@@ -66,7 +66,10 @@ class MailQueue extends AbstractMiddleware {
      */
     public function afterSend(Request $request, Response $response) {
         foreach (self::get()->messagesQueue as $m) {
-            $m->send();
+            
+            if (!$m->isSent()) {
+                $m->send();
+            }
         }
     }
     /**
